@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Principios de Seguridad</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/styles.css">
+  <style>
+    body {
+      background-color: #f8f9fa; /* Color de fondo más claro */
+      color: #343a40; /* Color del texto más oscuro */
+      font-family: 'Roboto', sans-serif;
+    }
+    .navbar {
+      background-color: #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    .navbar-brand {
+      color: #333;
+      transition: color 0.2s;
+    }
+    .nav-link {
+      color: #333; /* Cambiado a negro */
+      transition: color 0.2s;
+    }
+    .nav-link:hover {
+      color: #007bff; /* Azul al pasar el ratón */
+    }
+    .concept-card {
+      background-color: white; /* Fondo blanco para las tarjetas */
+      border: 1px solid #ddd; /* Bordes sutiles */
+      border-radius: 8px; /* Bordes redondeados */
+      padding: 20px;
+      margin: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+      text-align: center;
+    }
+    h1, h3, h5 {
+      color: #333; /* Cambiado a negro */
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background-color: #ffffff;
+      box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar Minimalista -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="ataques.html">Ataques Cibernéticos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="confidencialidad.html">Confidencialidad de la Información</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="principios.html">Principios de Seguridad</a>
+          </li>
+        </ul>
+        <span class="navbar-text ms-3">
+          Alumno: Rentería Sergio Iván
+        </span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido principal -->
+  <div class="container text-center mt-5">
+    <h1>Principios de Seguridad</h1>
+    <p class="lead">Conoce los principios fundamentales de la seguridad de la información.</p>
+
+    <!-- Secciones con descripciones en cuadrícula -->
+    <div class="container text-start mt-5">
+      <h3>Sección 3: Descripción de Principios de Seguridad</h3>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Accesibilidad</h5>
+            <p>La información debe estar disponible y accesible a los usuarios autorizados cuando la necesiten.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Confidencialidad</h5>
+            <p>La información debe ser accesible únicamente a aquellos que tienen autorización para acceder a ella.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Disponibilidad</h5>
+            <p>Los sistemas y la información deben estar disponibles para su uso cuando sea necesario.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Autenticación</h5>
+            <p>Proceso de verificar la identidad de un usuario o sistema antes de otorgar acceso a recursos.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Integridad</h5>
+            <p>Asegura que la información no haya sido alterada o destruida de manera no autorizada.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="concept-card">
+            <h5>Control de Acceso</h5>
+            <p>Métodos utilizados para restringir el acceso a la información y recursos a usuarios autorizados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
